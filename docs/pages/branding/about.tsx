@@ -2,11 +2,13 @@ import * as React from 'react';
 import BrandingRoot from 'docs/src/modules/branding/BrandingRoot';
 import BrandingBeginToday from 'docs/src/modules/branding/BrandingBeginToday';
 import BrandingDiscoverMore from 'docs/src/modules/branding/BrandingDiscoverMore';
+import BrandingWhatToExpect from 'docs/src/modules/branding/BrandingWhatToExpect';
 
 export default function Page() {
   return (
     <BrandingRoot>
       <BrandingDiscoverMore />
+      <BrandingWhatToExpect />
       <BrandingBeginToday />
     </BrandingRoot>
   );
